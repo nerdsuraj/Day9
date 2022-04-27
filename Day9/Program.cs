@@ -22,6 +22,8 @@ namespace Day9
 
             EmpTotalMonth.EmpolyeeTotalMonth();
 
+            EmpWageClass.EmpolyeeWageClass();
+
            Console.ReadLine();
         }
     }

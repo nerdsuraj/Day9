@@ -48,6 +48,7 @@
     <Compile Include="EmpPresent.cs" />
     <Compile Include="EmpSwitchCase.cs" />
     <Compile Include="EmpTotalMonth.cs" />
+    <Compile Include="EmpWageClass.cs" />
     <Compile Include="EmpWageMonth.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
