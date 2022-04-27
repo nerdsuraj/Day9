@@ -24,7 +24,9 @@ namespace Day9
 
             EmpWageClass.EmpolyeeWageClass();
 
-           Console.ReadLine();
+            EmpForMultiComp.wagemethod();
+
+            Console.ReadLine();
         }
     }
 }
