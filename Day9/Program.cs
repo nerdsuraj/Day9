@@ -11,6 +11,22 @@ namespace Day9
         static void Main(string[] args)
         {
             EmpPresent.EmpolyeeWage();
+
+            DailyEmpWage.Empolyeewage();
+
+            EmpPartWage.EmpolyeeWagePart();
+
+            EmpSwitchCase.EmpolyeeWagSwitch();
+
+            EmpWageMonth.EmpolyeeWageMonth();
+
+            EmpTotalMonth.EmpolyeeTotalMonth();
+
+            EmpWageClass.EmpolyeeWageClass();
+
+            EmpForMultiComp.wagemethod();
+
+            Console.ReadLine();
         }
     }
 }
