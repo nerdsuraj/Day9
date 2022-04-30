@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AddressBook
 {
-    internal class ManipulateContact
+    internal class EditContact
     {
         List<AddressContact> AddressBookList = new List<AddressContact>();
         public void AddingContact
@@ -40,14 +40,14 @@ namespace AddressBook
             {
                 if (contact.Name.Contains(Name))
                 {
-                    Console.WriteLine("plz provide new ");
+                    /*Console.WriteLine("plz provide new ");
                     contact.Address = Console.ReadLine();
                     Console.WriteLine("plz provide new ");
                     contact.City = Console.ReadLine();
                     Console.WriteLine("plz provide new ");
                     contact.State = Console.ReadLine();
                     Console.WriteLine("plz provide new ");
-                    contact.ZipCode = Console.ReadLine();
+                    contact.ZipCode = Console.ReadLine();*/
                     Console.WriteLine("plz provide new phone number");
                     contact.PhoneNumber = Console.ReadLine();
                     Console.WriteLine("plz provide new email");

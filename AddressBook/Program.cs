@@ -8,7 +8,17 @@ namespace AddressBook
 {
     internal class Program
     {
+
+        public static ManipulateContact manipulate = new ManipulateContact();
+
         static void Main(string[] args)
+        {
+            Console.WriteLine("welcome to address book system");
+
+            AddContact();
+            EditContact();
+        }
+        public static void AddContact()
         {
 
             Console.WriteLine("welcome to address book system");
@@ -30,6 +40,14 @@ namespace AddressBook
 
                 Console.ReadLine();
             }
+        }
+        public static void EditContact()
+        {
+            //ContactDetails detail = new ContactDetails();
+            //ManipulateContact EditNewContact = new ManipulateContact();
+            Console.WriteLine("enter name you want edit");
+            string Name = Console.ReadLine();
+            manipulate.EditingContact(Name);
         }
     }
 }
