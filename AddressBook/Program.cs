@@ -17,6 +17,7 @@ namespace AddressBook
 
             AddContact();
             EditContact();
+            DeleteContact();
         }
         public static void AddContact()
         {
@@ -48,6 +49,12 @@ namespace AddressBook
             Console.WriteLine("enter name you want edit");
             string Name = Console.ReadLine();
             manipulate.EditingContact(Name);
+        }
+        public static void DeleteContact()
+        {
+            Console.WriteLine("enter name you want delete");
+            string Name = Console.ReadLine();
+            manipulate.DeletingContact(Name);
         }
     }
 }

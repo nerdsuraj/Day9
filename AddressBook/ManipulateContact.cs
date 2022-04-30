@@ -52,8 +52,23 @@ namespace AddressBook
                     contact.PhoneNumber = Console.ReadLine();
                     Console.WriteLine("plz provide new email");
                     contact.Email = Console.ReadLine();
+                    break;
                 }
             }
         }
+
+        public void DeletingContact(string Name)
+        {
+            foreach (var contact in AddressBookList)
+            {
+                if (contact.Name.Contains(Name))
+                {
+                    AddressBookList.Remove(contact);
+                    Console.WriteLine($"{Name}'s Contact is deleted______");
+                    break;
+                }
+            }
+        }
+
     }
 }

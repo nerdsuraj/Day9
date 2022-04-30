@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AddressContact.cs" />
     <Compile Include="ContactDetail.cs" />
+    <Compile Include="DeletedContact.cs" />
     <Compile Include="EditContact.cs" />
     <Compile Include="ManipulateContact.cs" />
     <Compile Include="Program.cs" />
